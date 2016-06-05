@@ -1,0 +1,7 @@
+<h1>Error Generator</h1>
+<p>Me linkerino errors for testerino.</p>
+
+<div><%= link_to "NameError: undefined local variable or method `users'", users_path %></div>
+<div><%= link_to "NoMethodError: undefined method `first_name'", user_path(1) %></div>
+<div><%= link_to "AbstractController::ActionNotFound", new_user_path %></div>
+<div><%= link_to "ActionController::UnknownFormat: UsersController#edit is missing a template for this request format and variant. ", edit_user_path(1) %></div>
